@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class UpandDown : MonoBehaviour
 {
-    public int min;
-    public int max;
+    public float min;
+    public float max;
     public bool increasing;
     // Start is called before the first frame update
     void Start()
     {
-        min = -5;
-        max = 5;
+        min = UnityEngine.Random.Range(-5.0f, -2.0f);
+        max = UnityEngine.Random.Range(0.0f, 5.0f);
     }
 
     // Update is called once per frame
