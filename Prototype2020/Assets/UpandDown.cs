@@ -17,6 +17,6 @@ public class UpandDown : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime);
 
         // object down along z axis
-        transform.Translate(Vector3.down * Time.deltaTime);
+        transform.Translate(Vector3.back * Time.deltaTime);
     }
 }
