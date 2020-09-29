@@ -8,8 +8,8 @@ public class movement : MonoBehaviour
     private Rigidbody player; 
     private float jumpVelocity = 5.5f;
     private bool grounded;
-    private float groundedMovement = .0225f;
-    private float airMovement = .0125f;
+    private float groundedMovement = .0525f;
+    private float airMovement = .0525f;
     // Start is called before the first frame update
     void Start()
     {
