@@ -6,7 +6,7 @@ public class movement : MonoBehaviour
 {
     // public Transform myTransform;
     private Rigidbody player; 
-    private float jumpVelocity = 5.5f;
+    private float jumpVelocity = 5f;
     private bool grounded;
     private float groundedMovement = .0525f;
     private float airMovement = .0525f;

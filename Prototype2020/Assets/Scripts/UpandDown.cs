@@ -10,8 +10,8 @@ public class UpandDown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        min = UnityEngine.Random.Range(-5.0f, -2.0f);
-        max = UnityEngine.Random.Range(0.0f, 5.0f);
+        min = UnityEngine.Random.Range(-10.0f, -1.0f);
+        max = UnityEngine.Random.Range(00.0f, 15.0f);
     }
 
     // Update is called once per frame
